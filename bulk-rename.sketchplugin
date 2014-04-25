@@ -1,0 +1,6 @@
+var newName = [doc askForUserInput:"Rename to what?" initialValue:""];
+
+for (var i=0; i<selection.length(); i++) {
+	var layer = selection[i];
+	[layer setName: newName];
+}
